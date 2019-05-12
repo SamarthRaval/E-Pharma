@@ -1,0 +1,18 @@
+@import '../../color-palette.scss';
+
+a{
+    color: white;
+    border-radius: 5px;
+    &:hover {
+      background-color: $color4;
+    }
+    &:active {
+      color: $color3;
+    }
+    text-transform: uppercase;
+}
+
+.active {
+ font-size: 1.2em;
+ color: $color3;
+}
